@@ -29,3 +29,6 @@ classDiagram
     Patient "1" -- "0..*" Encounter : possui
     Encounter "1" -- "0..*" Task : gera
     Encounter "1" -- "1" Patient : pertence
+
+
+diagrama baseado em FHIR
