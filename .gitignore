@@ -1,0 +1,105 @@
+# Dependências
+node_modules/
+bower_components/
+jspm_packages/
+
+# Compilação e Build
+/dist
+/build
+*.tsbuildinfo
+*.js.map
+
+# Cache
+.npm
+.eslintcache
+.node_repl_history
+node_modules/.cache/
+.cache/
+
+# Testes
+/coverage
+/.nyc_output
+*.lcov
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Sistema Operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDEs e Editores
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Variáveis de Ambiente
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+
+# Dados Temporários
+.temp
+.tmp
+tmp/
+temp/
+
+# Runtime
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Relatórios de Diagnóstico
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Database Local
+*.sqlite
+*.sqlite3
+*.db
+
+# Uploads (se aplicável)
+uploads/
+public/uploads/
+
+# Certificados e Chaves
+*.pem
+*.key
+*.cert
+*.crt
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*~
